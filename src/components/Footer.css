@@ -1,0 +1,33 @@
+footer {
+    background-color: #52616B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer section section {
+    display: block;
+    text-align: center;
+}
+
+footer section section a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+footer section section a:hover {
+    color: #FFFFFF;
+    transition: 1s;
+}
